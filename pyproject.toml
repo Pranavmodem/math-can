@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "math_can"
+version = "0.1.0"
+description = "A math utility package."
+authors = [
+    { name = "Pranavmodem" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
