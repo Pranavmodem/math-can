@@ -2,8 +2,7 @@ import random
 from math_can.utils import MathOperators
 
 class MathCan:
-    def __init__(self, params=None):
-        self.params = params or {}
+    def __init__(self):
         self.operations = {
             'add': MathOperators.add,
             'subtract': MathOperators.subtract,
