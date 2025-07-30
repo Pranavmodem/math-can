@@ -5,7 +5,9 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "math_can"
 version = "0.1.0"
-description = "A math utility package."
+description = "A CLI and experimental webapp for practicing mental math."
+[project.optional-dependencies]
+webapp = ["streamlit"]
 authors = [
     { name = "Pranavmodem" }
 ]
