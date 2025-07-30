@@ -1,4 +1,4 @@
-from math_can.jobs.math_can import MathCan
+from .app import main
 
 if __name__ == "__main__":
-    MathCan().main()
+    main()
